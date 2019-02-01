@@ -40,7 +40,7 @@ rec length : [|- list] -> [|- nat] =
 ;
 
 % map a function onto every element in a list
-rec map : ([ |- nat] -> [|- nat]) -> [|- list] -> [|- list] =
+rec map : ([|- nat] -> [|- nat]) -> [|- list] -> [|- list] =
   fn f => fn l =>
     case l of
       | [|- nil] => [|- nil]

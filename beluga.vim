@@ -118,4 +118,4 @@ if version >= 508 || !exists("did_bel_syntax_inits")
   delcommand HiLink
 endif
 
-let b:current_syntax = "belgua"
+let b:current_syntax = "beluga"
