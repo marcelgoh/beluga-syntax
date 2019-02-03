@@ -1,2 +1,3 @@
-# logic-computation
-Logic and Computation
+# Logic and Computation
+
+Using the Beluga programming language.
