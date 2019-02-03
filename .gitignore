@@ -4,7 +4,8 @@
 !*.*
 # Unignore all directories
 !*/
-# Unignore Makefile
+# Unignore LICENSE and Makefile
+LICENSE
 !Makefile
 ### ALL FILES WITHOUT EXTENSION NOW IGNORED ###
 

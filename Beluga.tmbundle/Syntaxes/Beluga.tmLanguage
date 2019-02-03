@@ -30,7 +30,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\=\&gt;|\|\s|\;|\=|\.|\:|\:\:)</string>
+			<string>(\=\&gt;|\|\s|\;|\=|\.|\:|\:\:|-\&gt;|\&lt;-)</string>
 			<key>name</key>
 			<string>keyword.other.bel</string>
 		</dict>
