@@ -1,3 +1,3 @@
-# Logic and Computation
+# Beluga TextMate Syntax
 
-Using the Beluga programming language.
+Syntax support for the [Beluga programming language](http://complogic.cs.mcgill.ca).
