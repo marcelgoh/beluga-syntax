@@ -31,7 +31,7 @@ contexts:
     # strings in YAML. When using single quoted strings, only single quotes
     # need to be escaped: this is done by using two single quotes next to each
     # other.
-    - match: '\b(case|FN|fn|mlam|of|in|let|else|module|ttrue|ffalse|schema|some|block|rec)\b'
+    - match: '\b(and|case|FN|fn|mlam|of|in|let|else|module|ttrue|ffalse|schema|some|block|impossible|Bool|then|struct)\b'
       scope: keyword.other.bel
 
     # Declarations
@@ -51,7 +51,7 @@ contexts:
       scope: storage.type.bel
 
     # Meaningful punctuation
-    - match: (=>|\|\s|\;|\=|\.)
+    - match: (\=\>|\|\s|\;|\=|\.)
       scope: keyword.other.bel
 
      # Numbers
